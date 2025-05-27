@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="차윤호 - 두원공과대학교 컴퓨터공학과 학생의 개인 홈페이지">
+    <meta name="keywords" content="차윤호, 컴퓨터공학, 두원공과대학교, 개발자, 학생">
+    <meta name="author" content="차윤호">
+    <script src="js/clock.js"></script>
+<script src="js/contact-protection.js"></script>
+    
+    <title>차윤호 | Computer Science Student</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="navbar-clock">
+        <div class="clock-date" id="clock-date"></div>
+        <div class="clock-time" id="clock-time"></div>
+    </div>
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-code"></i>
+                차윤호
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="interests.html">Interests</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <div class="navbar-clock">
+        <div class="clock-date" id="clock-date"></div>
+        <div class="clock-time" id="clock-time"></div>
+    </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-background">
+                <div class="hero-particles"></div>
+                <div class="hero-grid"></div>
+            </div>
+            
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text animate-fade-up">
+                        <div class="hero-greeting">
+                            <span class="greeting-text">안녕하세요, 저는</span>
+                        </div>
+                        <h1 class="hero-title">
+                            <span class="name-highlight">차윤호</span>입니다
+                        </h1>
+                        <div class="hero-subtitle">
+                            <span class="typing-text"></span>
+                            <span class="cursor">|</span>
+                        </div>
+                        <p class="hero-description">
+                            두원공과대학교 컴퓨터공학과에서 꿈을 키워가는 개발자 지망생입니다.<br>
+                            새로운 기술과지식을 배움에 있어 항상 갈증을 느끼며,<br>
+                            굉장한 호기심을 가지고 있습니다다.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="about.html" class="btn btn-primary">
+                                <i class="fas fa-user"></i>
+                                더 알아보기
+                            </a>
+                            <a href="contact.html" class="btn btn-outline">
+                                <i class="fas fa-envelope"></i>
+                                연락하기
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-visual animate-fade-right">
+                        <div class="code-window">
+                            <div class="window-header">
+                                <div class="window-controls">
+                                    <span class="control red"></span>
+                                    <span class="control yellow"></span>
+                                    <span class="control green"></span>
+                                </div>
+                                <span class="window-title">welcome.js</span>
+                            </div>
+                            <div class="code-content">
+                                <pre><code><span class="keyword">class</span> <span class="class">Developer</span> {
+  <span class="keyword">constructor</span>() {
+    <span class="keyword">this</span>.<span class="property">name</span> = <span class="string">"차윤호"</span>;
+    <span class="keyword">this</span>.<span class="property">university</span> = <span class="string">"두원공과대학교"</span>;
+    <span class="keyword">this</span>.<span class="property">major</span> = <span class="string">"컴퓨터공학과"</span>;
+    <span class="keyword">this</span>.<span class="property">year</span> = <span class="number">1</span>;
+    <span class="keyword">this</span>.<span class="property">passion</span> = <span class="string">"∞"</span>;
+  }
+  
+  <span class="function">sayHello</span>() {
+    <span class="keyword">return</span> <span class="string">"Let's build the future!"</span>;
+  }
+}</code></pre>
+                            </div>
+                        </div>
+                        
+                        <div class="floating-elements">
+                            <div class="floating-icon" data-tech="HTML5">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <div class="floating-icon" data-tech="CSS3">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <div class="floating-icon" data-tech="JavaScript">
+                                <i class="fab fa-js-square"></i>
+                            </div>
+                            <div class="floating-icon" data-tech="React">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <div class="floating-icon" data-tech="Python">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <div class="floating-icon" data-tech="Git">
+                                <i class="fab fa-git-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <div class="scroll-text">Scroll Down</div>
+            </div>
+        </section>
+
+        <!-- Quick Stats Section -->
+        <section class="stats-section">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-item animate-fade-up">
+                        <div class="stat-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <div class="stat-number" data-target="2025">0</div>
+                        <div class="stat-label">입학년도</div>
+                    </div>
+                    <div class="stat-item animate-fade-up">
+                        <div class="stat-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="stat-number" data-target="1">0</div>
+                        <div class="stat-label">학년</div>
+                    </div>
+                    <div class="stat-item animate-fade-up">
+                        <div class="stat-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="stat-number" data-target="100">0</div>
+                        <div class="stat-label">학습 의지 %</div>
+                    </div>
+                    <div class="stat-item animate-fade-up">
+                        <div class="stat-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <div class="stat-number" data-target="∞">0</div>
+                        <div class="stat-label">성장 가능성</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quick Navigation Section -->
+        <section class="quick-nav-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">나에 대해 더 알아보세요</h2>
+                    <p class="section-subtitle">
+                        각 섹션을 클릭하여 저에 대한 다양한 정보를 확인하실 수 있습니다
+                    </p>
+                </div>
+                
+                <div class="quick-nav-grid">
+                    <a href="about.html" class="quick-nav-card animate-fade-up">
+                        <div class="nav-card-icon">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <h3>About Me</h3>
+                        <p>저의 소개와 배경, 목표에 대해 알아보세요</p>
+                        <div class="nav-card-arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </a>
+                    
+                    <a href="education.html" class="quick-nav-card animate-fade-up">
+                        <div class="nav-card-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>Education</h3>
+                        <p>학력과 현재 수강 중인 과목들을 확인하세요</p>
+                        <div class="nav-card-arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </a>
+                    
+                    <a href="interests.html" class="quick-nav-card animate-fade-up">
+                        <div class="nav-card-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h3>Interests</h3>
+                        <p>관심 분야와 취미, 열정에 대해 살펴보세요</p>
+                        <div class="nav-card-arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </a>
+                    
+                    <a href="projects.html" class="quick-nav-card animate-fade-up">
+                        <div class="nav-card-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Projects</h3>
+                        <p>진행 예정인 프로젝트와 학습 계획을 확인하세요</p>
+                        <div class="nav-card-arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </a>
+                    
+                    <a href="contact.html" class="quick-nav-card animate-fade-up">
+                        <div class="nav-card-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Contact</h3>
+                        <p>연락처와 소셜 미디어 정보를 확인하세요</p>
+                        <div class="nav-card-arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 차윤호. All rights reserved.</p>
+                <p>Made with <i class="fas fa-heart" style="color: var(--accent);"></i> by 차윤호</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/home.js"></script>
+</body>
+</html>

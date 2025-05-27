@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="차윤호의 학력 정보 및 수강 과목">
+    <meta name="keywords" content="차윤호, 두원공과대학교, 컴퓨터공학과, 교육">
+    <meta name="author" content="차윤호">
+    <script src="js/clock.js"></script>
+<script src="js/contact-protection.js"></script>
+    
+    <title>Education | 차윤호</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/education.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-code"></i>
+                차윤호
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="education.html" class="active">Education</a></li>
+                <li><a href="interests.html">Interests</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <div class="navbar-clock">
+        <div class="clock-date" id="clock-date"></div>
+        <div class="clock-time" id="clock-time"></div>
+    </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Education Hero -->
+        <section class="education-hero">
+            <div class="container">
+                <div class="hero-content animate-fade-up">
+                    <span class="hero-label">Education</span>
+                    <h1 class="hero-title">
+                        학습 여정
+                    </h1>
+                    <p class="hero-description">
+                        지식을 쌓고 실력을 기르며 성장해나가는 저의 교육 과정을 소개합니다
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Current Education -->
+        <section class="current-education">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">현재 교육 과정</h2>
+                    <p class="section-subtitle">두원공과대학교에서의 학습 현황입니다</p>
+                </div>
+                
+                <div class="university-card animate-fade-up">
+                    <div class="university-header">
+                        <div class="university-logo">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <div class="university-info">
+                            <h3>두원공과대학교</h3>
+                            <p>Doowon Technical University</p>
+                            <div class="university-details">
+                                <span class="detail-item">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    경기도 파주시
+                                </span>
+                                <span class="detail-item">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    2025년 입학
+                                </span>
+                            </div>
+                        </div>
+                        <div class="university-status">
+                            <span class="status-badge active">재학중</span>
+                        </div>
+                    </div>
+                    
+                    <div class="major-info">
+                        <div class="major-header">
+                            <h4>컴퓨터공학과 (Computer Science & Engineering)</h4>
+                            <span class="year-badge">1학년</span>
+                        </div>
+                        <p class="major-description">
+                            C#, 컴퓨터 구조, HTML5등 컴퓨터 과학의 전반적인 지식을 학습하며, 컴퓨터
+                            과학의 전반적인 기초 역량과 해결 능력을 기르고 있습니다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Current Courses -->
+        <section class="courses-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">수강 과목</h2>
+                    <p class="section-subtitle">현재 1학년 과정에서 배우고 있는 과목들입니다</p>
+                </div>
+                
+                <div class="semester-tabs">
+                    <button class="tab-btn active" data-semester="spring">1학기</button>
+                    <button class="tab-btn" data-semester="fall">2학기 (예정)</button>
+                </div>
+                
+                <div class="courses-content">
+                    <!-- 1학기 과목 -->
+                    <div class="semester-courses active" id="spring-courses">
+                        <div class="courses-grid">
+                            <div class="course-card animate-fade-up">
+                                <div class="course-header">
+                                    <div class="course-icon programming">
+                                        <i class="fas fa-code"></i>
+                                    </div>
+                                    <div class="course-info">
+                                        <h3>프로그래밍 언어</h3>
+                                        <p class="course-code">현승렬교수님</p>
+                                    </div>
+                                    <div class="course-credits">4학점</div>
+                                </div>
+                                <div class="course-content">
+                                    <p class="course-description">
+                                        프로그래밍의 기초를 다지는 핵심 과목으로, C#과 기본 언어를 배웁니다.
+                                        
+                                    </p>
+                                    <div class="course-topics">
+                                        <span class="topic">변수와 자료형</span>
+                                        <span class="topic">제어구조</span>
+                                        <span class="topic">함수</span>
+                                        <span class="topic">반복과 조건문</span>
+                                        <span class="topic">배열</span>
+                                    </div>
+                                    <div class="course-progress">
+                                        <div class="progress-label">진도</div>
+                                        <div class="progress-bar">
+                                            <div class="progress-fill" data-progress="80"></div>
+                                        </div>
+                                        <div class="progress-percent">80%</div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="course-card animate-fade-up">
+                                <div class="course-header">
+                                    <div class="course-icon math">
+                                        <i class="fas fa-calculator"></i>
+                                    </div>
+                                    <div class="course-info">
+                                        <h3>기초수학</h3>
+                                        <p class="course-code">김형래교수님</p>
+                                    </div>
+                                    <div class="course-credits">2학점</div>
+                                </div>
+                                <div class="course-content">
+                                    <p class="course-description">
+                                        컴퓨터공학에 필요한 전반적인 기초수학을 학습하는 과목입니다.
+                                    </p>
+                                    <div class="course-topics">
+                                        <span class="topic">선형대수학</span>
+                                        <span class="topic">이진법</span>
+                                        <span class="topic">이차함수</span>
+                                        <span class="topic">그래프</span>
+                                    </div>
+                                    <div class="course-progress">
+                                        <div class="progress-label">진도</div>
+                                        <div class="progress-bar">
+                                            <div class="progress-fill" data-progress="70"></div>
+                                        </div>
+                                        <div class="progress-percent">90%</div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="course-card animate-fade-up">
+                                <div class="course-header">
+                                    <div class="course-icon system">
+                                        <i class="fas fa-microchip"></i>
+                                    </div>
+                                    <div class="course-info">
+                                        <h3>컴퓨터구조</h3>
+                                        <p class="course-code">김영우교수님</p>
+                                    </div>
+                                    <div class="course-credits">3학점</div>
+                                </div>
+                                <div class="course-content">
+                                    <p class="course-description">
+                                        컴퓨터 하드웨어의 구조와 동작 원리를 이해하고, 
+                                        CPU, 메모리, 입출력 시스템에 대해 학습합니다.
+                                    </p>
+                                    <div class="course-topics">
+                                        <span class="topic">CPU 구조</span>
+                                        <span class="topic">메모리 시스템</span>
+                                        <span class="topic">명령어 집합</span>
+                                        <span class="topic">입출력 시스템</span>
+                                    </div>
+                                    <div class="course-progress">
+                                        <div class="progress-label">진도</div>
+                                        <div class="progress-bar">
+                                            <div class="progress-fill" data-progress="80"></div>
+                                        </div>
+                                        <div class="progress-percent">80%</div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="course-card animate-fade-up">
+                                <div class="course-header">
+                                    <div class="course-icon general">
+                                        <i class="fas fa-book"></i>
+                                    </div>
+                                    <div class="course-info">
+                                        <h3>포토샵</h3>
+                                        <p class="course-code">한사훈교수님</p>
+                                    </div>
+                                    <div class="course-credits">3학점</div>
+                                </div>
+                                <div class="course-content">
+                                    <p class="course-description">
+                                        디자인 실무에 필수적인 포토샵 활용 능력을 익히고, 창의적인 아이디어를 시각화합니다.
+                                    </p>
+                                    <div class="course-topics">
+                                        <span class="topic">저작권법</span>
+                                        <span class="topic">UI/UX</span>
+                                        <span class="topic">프레젠테이션 및 발표</span>
+                                        <span class="topic">포토샵 기본</span>
+                                    </div>
+                                    <div class="course-progress">
+                                        <div class="progress-label">진도</div>
+                                        <div class="progress-bar">
+                                            <div class="progress-fill" data-progress="60"></div>
+                                        </div>
+                                        <div class="progress-percent">60%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- 2학기 과목 (예정) -->
+                    <div class="semester-courses" id="fall-courses">
+                        <div class="courses-grid">
+                            <div class="course-card planned animate-fade-up">
+                                <div class="course-header">
+                                    <div class="course-icon programming">
+                                        <i class="fab fa-python"></i>
+                                    </div>
+                                    <div class="course-info">
+                                        <h3>Python 프로그래밍</h3>
+                                        <p class="course-code">CSE201</p>
+                                    </div>
+                                    <div class="course-credits">3학점</div>
+                                </div>
+                                <div class="course-content">
+                                    <p class="course-description">
+                                        Python 언어를 통해 객체지향 프로그래밍과 
+                                        데이터 처리 기법을 학습할 예정입니다.
+                                    </p>
+                                    <div class="course-topics">
+                                        <span class="topic">객체지향 프로그래밍</span>
+                                        <span class="topic">데이터 구조</span>
+                                        <span class="topic">파일 처리</span>
+                                        <span class="topic">라이브러리 활용</span>
+                                    </div>
+                                    <div class="planned-badge">수강 예정</div>
+                                </div>
+                            </div>
+                            
+                            <div class="course-card planned animate-fade-up">
+                                <div class="course-header">
+                                    <div class="course-icon system">
+                                        <i class="fas fa-database"></i>
+                                    </div>
+                                    <div class="course-info">
+                                        <h3>자료구조</h3>
+                                        <p class="course-code">CSE202</p>
+                                    </div>
+                                    <div class="course-credits">3학점</div>
+                                </div>
+                                <div class="course-content">
+                                    <p class="course-description">
+                                        효율적인 데이터 저장과 검색을 위한 
+                                        다양한 자료구조를 학습할 예정입니다.
+                                    </p>
+                                    <div class="course-topics">
+                                        <span class="topic">배열과 리스트</span>
+                                        <span class="topic">스택과 큐</span>
+                                        <span class="topic">트리</span>
+                                        <span class="topic">그래프</span>
+                                    </div>
+                                    <div class="planned-badge">수강 예정</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Learning Activities -->
+        <section class="activities-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">학습 활동</h2>
+                    <p class="section-subtitle">수업 외에 진행하고 있는 추가 학습 활동들입니다</p>
+                </div>
+                
+                <div class="activities-grid">
+                    <div class="activity-card animate-fade-up">
+                        <div class="activity-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>코딩테스트</h3>
+                        <p>
+                            매일 1문제씩 리트코드를 풀며 
+                            실력 향상을 위해 노력하고 있습니다.
+                        </p>
+                        <div class="activity-stats">
+                            <div class="stat">
+                                <span class="stat-number">10+</span>
+                                <span class="stat-label">해결한 문제</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">daily</span>
+                                <span class="stat-label">학습 빈도</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="activity-card animate-fade-up">
+                        <div class="activity-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>스터디 그룹</h3>
+                        <p>
+                            같은 과 동기들과 함께 스터디 그룹을 만들어 
+                            개념들을 함께 공부하고 서로 돕습니다.
+                        </p>
+                        <div class="activity-stats">
+                            <div class="stat">
+                                <span class="stat-number">3명</span>
+                                <span class="stat-label">스터디 멤버</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">주 1~2회</span>
+                                <span class="stat-label">모임 횟수</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="activity-card animate-fade-up">
+                        <div class="activity-icon">
+                            <i class="fas fa-book-open"></i>
+                        </div>
+                        <h3>독서</h3>
+                        <p>
+                            꾸준히 매일 30분 이상 독서를 하고 있습니다.
+                        </p>
+                        <div class="activity-stats">
+                            <div class="stat">
+                                <span class="stat-number">20권+</span>
+                                <span class="stat-label">완독한 책</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">2권</span>
+                                <span class="stat-label">읽고 있는 책</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 차윤호. All rights reserved.</p>
+                <p>Made with <i class="fas fa-heart" style="color: var(--accent);"></i> by 차윤호</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/education.js"></script>
+</body>
+</html>

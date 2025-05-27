@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="차윤호의 프로젝트와 개발 계획">
+    <meta name="keywords" content="차윤호, 프로젝트, 개발, 포트폴리오">
+    <meta name="author" content="차윤호">
+    <script src="js/clock.js"></script>
+<script src="js/contact-protection.js"></script>
+    
+    <title>Projects | 차윤호</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/projects.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-code"></i>
+                차윤호
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="interests.html">Interests</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <div class="navbar-clock">
+        <div class="clock-date" id="clock-date"></div>
+        <div class="clock-time" id="clock-time"></div>
+    </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Projects Hero -->
+        <section class="projects-hero">
+            <div class="container">
+                <div class="hero-content animate-fade-up">
+                    <span class="hero-label">
+                        <i class="fas fa-rocket"></i>
+                        Projects & Plans
+                    </span>
+                    <h1 class="hero-title">
+                        프로젝트와 <span class="gradient-text">개발 계획</span>
+                    </h1>
+                    <p class="hero-description">
+                        현재 진행 중인 프로젝트부터 앞으로 도전하고 싶은 프로젝트까지,<br>
+                        저의 개발 여정을 함께 확인해보세요.
+                    </p>
+                </div>
+                
+                <div class="projects-stats animate-fade-up">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="1">0</div>
+                        <div class="stat-label">진행 중인 프로젝트</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="5">0</div>
+                        <div class="stat-label">계획된 프로젝트</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="3">0</div>
+                        <div class="stat-label">사용 예정 기술</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Current Projects -->
+        <section class="current-projects">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">현재 진행 중</h2>
+                    <p class="section-subtitle">지금 개발하고 있는 프로젝트입니다</p>
+                </div>
+                
+                <div class="project-showcase">
+                    <div class="project-card current animate-fade-up">
+                        <div class="project-status">
+                            <span class="status-badge in-progress">진행 중</span>
+                            <span class="progress-percentage">75%</span>
+                        </div>
+                        
+                        <div class="project-image">
+                            <div class="project-icon">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <div class="code-preview">
+                                <div class="code-line"></div>
+                                <div class="code-line short"></div>
+                                <div class="code-line"></div>
+                                <div class="code-line medium"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="project-content">
+                            <h3 class="project-title">개인 포트폴리오 웹사이트</h3>
+                            <p class="project-description">
+                                HTML, CSS, JavaScript를 활용한 반응형 개인 홈페이지 제작 프로젝트입니다. 
+                                모던한 디자인과 사용자 친화적인 인터페이스를 구현하고 있습니다.
+                            </p>
+                            
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">Responsive Design</span>
+                            </div>
+                            
+                            <div class="project-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" data-progress="75"></div>
+                                </div>
+                                <div class="progress-details">
+                                    <span>완료: 메인 구조, 디자인</span>
+                                    <span>진행 중: 인터랙션, 최적화</span>
+                                </div>
+                            </div>
+                            
+                            <div class="project-links">
+                                <a href="#" class="project-link" data-tooltip="GitHub 저장소">
+                                    <i class="fab fa-github"></i>
+                                    GitHub
+                                </a>
+                                <a href="#" class="project-link" data-tooltip="라이브 데모">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Planned Projects -->
+        <section class="planned-projects">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">계획된 프로젝트</h2>
+                    <p class="section-subtitle">앞으로 도전하고 싶은 프로젝트들입니다</p>
+                </div>
+                
+                <div class="projects-grid">
+                    <div class="project-card planned animate-fade-up">
+                        <div class="project-header">
+                            <div class="project-icon calculator">
+                                <i class="fas fa-calculator"></i>
+                            </div>
+                            <div class="project-meta">
+                                <span class="project-timeline">1개월 후</span>
+                                <span class="project-difficulty easy">초급</span>
+                            </div>
+                        </div>
+                        
+                        <div class="project-info">
+                            <h3>계산기 앱</h3>
+                            <p>JavaScript를 활용한 기본 계산기 앱 개발. 사칙연산과 간단한 함수들을 구현할 예정입니다.</p>
+                            
+                            <div class="project-features">
+                                <div class="feature">
+                                    <i class="fas fa-check"></i>
+                                    <span>사칙연산 기능</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-check"></i>
+                                    <span>히스토리 기능</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-check"></i>
+                                    <span>반응형 디자인</span>
+                                </div>
+                            </div>
+                            
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card planned animate-fade-up">
+                        <div class="project-header">
+                            <div class="project-icon todo">
+                                <i class="fas fa-tasks"></i>
+                            </div>
+                            <div class="project-meta">
+                                <span class="project-timeline">2개월 후</span>
+                                <span class="project-difficulty medium">중급</span>
+                            </div>
+                        </div>
+                        
+                        <div class="project-info">
+                            <h3>할 일 관리 앱</h3>
+                            <p>로컬 스토리지를 활용한 할 일 관리 웹 애플리케이션. CRUD 기능과 카테고리 분류를 구현할 예정입니다.</p>
+                            
+                            <div class="project-features">
+                                <div class="feature">
+                                    <i class="fas fa-check"></i>
+                                    <span>할 일 추가/수정/삭제</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-check"></i>
+                                    <span>카테고리 분류</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-check"></i>
+                                    <span>데이터 영구 저장</span>
+                                </div>
+                            </div>
+                            
+                            <div class="project-tech">
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">Local Storage</span>
+                                <span class="tech-tag">CSS Grid</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card planned animate-fade-up">
+                        <div class="project-header">
+                            <div class="project-icon weather">
+                                <i class="fas fa-cloud-sun"></i>
+                            </div>
+                            <div class="project-meta">
+                                <span class="project-timeline">3개월 후</span>
+                                <span class="project-difficulty medium">중급</span>
+                            </div>
+                        </div>
+                        
+                        <div class="project-info">
+                            <h3>날씨 정보 앱</h3>
+                            <p>OpenWeather API를 활용한 실시간 날씨 정보 제공 앱. 지역별 날씨와 주간 예보를 제공할 예정입니다.</p>
+                            
+                            <div class="project-features">
+                                <div class="feature">
+                                    <i class="fas fa-check"></i>
+                                    <span>실시간 날씨 정보</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-check"></i>
+                                    <span>주간 예보</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-check"></i>
+                                    <span>지역 검색 기능</span>
+                                </div>
+                            </div>
+                            
+                            <div class="project-tech">
+                                <span class="tech-tag">API Integration</span>
+                                <span class="tech-tag">Fetch API</span>
+                                <span class="tech-tag">Chart.js</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card planned animate-fade-up">
+                        <div class="project-header">
+                            <div class="project-icon game">
+                                <i class="fas fa-gamepad"></i>
+                            </div>
+                            <div class="project-meta">
+                                <span class="project-timeline">4개월 후</span>
+                                <span class="project-difficulty hard">고급</span>
+                            </div>
+                        </div>
+                        
+                        <div class="project-info">
+                            <h3>간단한 게임</h3>
+                            <p>Canvas API를 활용한 2D 게임 개발. 게임 로직과 애니메이션을 구현하여 인터랙티브한 경험을 제공할 예정입니다.</p>
+                            
+                            <div class="project-features">
+                                <div class="feature">
+                                    <i class="fas fa-check"></i>
+                                    <span>캐릭터 이동</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-check"></i>
+                                    <span>충돌 감지</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-check"></i>
+                                    <span>점수 시스템</span>
+                                </div>
+                            </div>
+                            
+                            <div class="project-tech">
+                                <span class="tech-tag">Canvas API</span>
+                                <span class="tech-tag">Game Logic</span>
+                                <span class="tech-tag">Animation</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card planned animate-fade-up">
+                        <div class="project-header">
+                            <div class="project-icon react">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <div class="project-meta">
+                                <span class="project-timeline">6개월 후</span>
+                                <span class="project-difficulty hard">고급</span>
+                            </div>
+                        </div>
+                        
+                        <div class="project-info">
+                            <h3>React 블로그</h3>
+                            <p>React를 학습한 후 진행할 블로그 프로젝트. 컴포넌트 기반 개발과 상태 관리를 경험할 예정입니다.</p>
+                            
+                            <div class="project-features">
+                                <div class="feature">
+                                    <i class="fas fa-check"></i>
+                                    <span>게시글 CRUD</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-check"></i>
+                                    <span>댓글 시스템</span>
+                                </div>
+                                <div class="feature">
+                                    <i class="fas fa-check"></i>
+                                    <span>검색 기능</span>
+                                </div>
+                            </div>
+                            
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">React Router</span>
+                                <span class="tech-tag">State Management</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Learning Path -->
+        <section class="learning-path">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">학습 로드맵</h2>
+                    <p class="section-subtitle">프로젝트를 통한 단계별 학습 계획입니다</p>
+                </div>
+                
+                <div class="roadmap">
+                    <div class="roadmap-item current animate-fade-up">
+                        <div class="roadmap-marker current">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <div class="roadmap-content">
+                            <h3>1단계: 기초 웹 개발</h3>
+                            <p>HTML, CSS, JavaScript 기초를 탄탄히 다지며 정적 웹사이트 제작</p>
+                            <div class="roadmap-skills">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript ES6+</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="roadmap-item next animate-fade-up">
+                        <div class="roadmap-marker next">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="roadmap-content">
+                            <h3>2단계: 인터랙티브 웹 앱</h3>
+                            <p>API 연동과 데이터 처리를 통한 동적 웹 애플리케이션 개발</p>
+                            <div class="roadmap-skills">
+                                <span>API Integration</span>
+                                <span>Local Storage</span>
+                                <span>DOM Manipulation</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="roadmap-item future animate-fade-up">
+                        <div class="roadmap-marker future">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <div class="roadmap-content">
+                            <h3>3단계: 프레임워크 학습</h3>
+                            <p>React 등 모던 프레임워크를 활용한 컴포넌트 기반 개발</p>
+                            <div class="roadmap-skills">
+                                <span>React</span>
+                                <span>Component Architecture</span>
+                                <span>State Management</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="roadmap-item future animate-fade-up">
+                        <div class="roadmap-marker future">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <div class="roadmap-content">
+                            <h3>4단계: 풀스택 개발</h3>
+                            <p>백엔드 기술과 데이터베이스를 연동한 완전한 웹 서비스 구축</p>
+                            <div class="roadmap-skills">
+                                <span>Node.js</span>
+                                <span>Database</span>
+                                <span>Full-Stack Development</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Development -->
+        <section class="skills-development">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">기술 발전 계획</h2>
+                    <p class="section-subtitle">프로젝트를 통해 습득하고자 하는 기술들입니다</p>
+                </div>
+                
+                <div class="skills-timeline">
+                    <div class="timeline-track"></div>
+                    
+                    <div class="skill-milestone active" data-month="0">
+                        <div class="milestone-marker">
+                            <span>현재</span>
+                        </div>
+                        <div class="milestone-content">
+                            <h4>기초 웹 기술</h4>
+                            <ul>
+                                <li>HTML5 구조적 마크업</li>
+                                <li>CSS3 스타일링 및 애니메이션</li>
+                                <li>JavaScript 기본 문법</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-milestone" data-month="3">
+                        <div class="milestone-marker">
+                            <span>3개월</span>
+                        </div>
+                        <div class="milestone-content">
+                            <h4>중급 JavaScript</h4>
+                            <ul>
+                                <li>ES6+ 문법 활용</li>
+                                <li>비동기 프로그래밍</li>
+                                <li>API 연동 및 데이터 처리</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-milestone" data-month="6">
+                        <div class="milestone-marker">
+                            <span>6개월</span>
+                        </div>
+                        <div class="milestone-content">
+                            <h4>모던 프레임워크</h4>
+                            <ul>
+                                <li>React 컴포넌트 개발</li>
+                                <li>상태 관리 (State Management)</li>
+                                <li>라우팅 및 네비게이션</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-milestone" data-month="12">
+                        <div class="milestone-marker">
+                            <span>1년</span>
+                        </div>
+                        <div class="milestone-content">
+                            <h4>풀스택 개발</h4>
+                            <ul>
+                                <li>백엔드 API 개발</li>
+                                <li>데이터베이스 설계</li>
+                                <li>배포 및 운영</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 차윤호. All rights reserved.</p>
+                <p>Made with <i class="fas fa-heart" style="color: var(--accent);"></i> by 차윤호</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/projects.js"></script>
+</body>
+</html>

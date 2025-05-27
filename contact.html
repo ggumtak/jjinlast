@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="차윤호 연락처 정보 및 소셜 미디어">
+    <meta name="keywords" content="차윤호, 연락처, 이메일, 소셜미디어">
+    <meta name="author" content="차윤호">
+    <script src="js/clock.js"></script>
+<script src="js/contact-protection.js"></script>
+    
+    <title>Contact | 차윤호</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-code"></i>
+                차윤호
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="interests.html">Interests</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <div class="navbar-clock">
+        <div class="clock-date" id="clock-date"></div>
+        <div class="clock-time" id="clock-time"></div>
+    </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Contact Hero -->
+        <section class="contact-hero">
+            <div class="container">
+                <div class="hero-content animate-fade-up">
+                    <span class="hero-label">
+                        <i class="fas fa-envelope"></i>
+                        Get In Touch
+                    </span>
+                    <h1 class="hero-title">
+                        언제든지 <span class="gradient-text">연락</span>주세요
+                    </h1>
+                    <p class="hero-description">
+                        새로운 기회, 협업 제안, 또는 단순한 인사까지<br>
+                        모든 연락을 환영합니다. 빠른 시일 내에 답변드리겠습니다.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Methods -->
+        <section class="contact-methods">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">연락 방법</h2>
+                    <p class="section-subtitle">편하신 방법으로 연락주세요</p>
+                </div>
+                
+                <div class="contact-grid">
+                    <div class="contact-card primary animate-fade-up">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h3>이메일</h3>
+                            <p class="contact-value">xxxx@example.com</p>
+                            <p class="contact-description">
+                                가장 빠르고 확실한 연락 방법입니다. 
+                                업무 관련 문의나 협업 제안을 환영합니다.
+                            </p>
+                            <div class="response-time">
+                                <i class="fas fa-clock"></i>
+                                <span>24시간 내 답변</span>
+                            </div>
+                        </div>
+                        <a href="mailto:xxxx@example.com" class="contact-action">
+                            <i class="fas fa-paper-plane"></i>
+                            메일 보내기
+                        </a>
+                    </div>
+                    
+                    <div class="contact-card animate-fade-up">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h3>전화</h3>
+                            <p class="contact-value">010-xxxx-xxxx</p>
+                            <p class="contact-description">
+                                긴급한 사안이나 직접 통화를 원하시는 경우 
+                                연락주세요. 평일 오전 9시부터 오후 6시까지 가능합니다.
+                            </p>
+                            <div class="response-time">
+                                <i class="fas fa-clock"></i>
+                                <span>평일 9:00 - 18:00</span>
+                            </div>
+                        </div>
+                        <a href="tel:010-xxxx-xxxx" class="contact-action">
+                            <i class="fas fa-phone"></i>
+                            전화 걸기
+                        </a>
+                    </div>
+                    
+                    <div class="contact-card animate-fade-up">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h3>주소</h3>
+                            <p class="contact-value">경기도 파주시 xxxx</p>
+                            <p class="contact-description">
+                                대면 미팅이 필요한 경우 사전 약속 후 
+                                만날 수 있습니다. 대학교 근처에서 만나는 것을 선호합니다.
+                            </p>
+                            <div class="response-time">
+                                <i class="fas fa-calendar"></i>
+                                <span>사전 약속 필요</span>
+                            </div>
+                        </div>
+                        <a href="#" class="contact-action" data-action="location">
+                            <i class="fas fa-map"></i>
+                            위치 보기
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Media -->
+        <section class="social-media">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">소셜 미디어</h2>
+                    <p class="section-subtitle">다양한 플랫폼에서 저를 찾아보세요</p>
+                </div>
+                
+                <div class="social-grid">
+                    <a href="#" class="social-card github animate-fade-up" data-platform="GitHub">
+                        <div class="social-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="social-info">
+                            <h3>GitHub</h3>
+                            <p class="social-handle">@chayunho</p>
+                            <p class="social-description">
+                                코드 저장소와 프로젝트들을 확인하실 수 있습니다. 
+                                앞으로 진행할 프로젝트들도 여기에 업로드할 예정입니다.
+                            </p>
+                        </div>
+                        <div class="social-stats">
+                            <div class="stat">
+                                <span class="stat-number">5</span>
+                                <span class="stat-label">Repositories</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">12</span>
+                                <span class="stat-label">Commits</span>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <a href="#" class="social-card linkedin animate-fade-up" data-platform="LinkedIn">
+                        <div class="social-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="social-info">
+                            <h3>LinkedIn</h3>
+                            <p class="social-handle">차윤호</p>
+                            <p class="social-description">
+                                전문적인 네트워킹과 커리어 관련 소식을 공유합니다. 
+                                업계 동향과 학습 내용을 정리해서 게시합니다.
+                            </p>
+                        </div>
+                        <div class="social-stats">
+                            <div class="stat">
+                                <span class="stat-number">10+</span>
+                                <span class="stat-label">Connections</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">0</span>
+                                <span class="stat-label">Posts</span>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <a href="#" class="social-card instagram animate-fade-up" data-platform="Instagram">
+                        <div class="social-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="social-info">
+                            <h3>Instagram</h3>
+                            <p class="social-handle">@yunho_dev</p>
+                            <p class="social-description">
+                                일상과 개발 과정을 사진과 스토리로 공유합니다. 
+                                학습 기록과 개발 환경 세팅 등을 올립니다.
+                            </p>
+                        </div>
+                        <div class="social-stats">
+                            <div class="stat">
+                                <span class="stat-number">90</span>
+                                <span class="stat-label">Followers</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">10</span>
+                                <span class="stat-label">Posts</span>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <a href="#" class="social-card blog animate-fade-up" data-platform="Blog">
+                        <div class="social-icon">
+                            <i class="fas fa-blog"></i>
+                        </div>
+                        <div class="social-info">
+                            <h3>개발 블로그</h3>
+                            <p class="social-handle">yunho.blog</p>
+                            <p class="social-description">
+                                학습한 내용과 개발 경험을 정리한 기술 블로그입니다. 
+                                문제 해결 과정과 새로 배운 기술들을 공유합니다.
+                            </p>
+                        </div>
+                        <div class="social-stats">
+                            <div class="stat">
+                                <span class="stat-number">15</span>
+                                <span class="stat-label">Articles</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">80+</span>
+                                <span class="stat-label">Views</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form -->
+        <section class="contact-form-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">메시지 보내기</h2>
+                    <p class="section-subtitle">빠른 연락을 위해 메시지를 남겨주세요</p>
+                </div>
+                
+                <div class="form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">이름 *</label>
+                                <input type="text" id="name" name="name" required>
+                                <span class="form-icon"><i class="fas fa-user"></i></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">이메일 *</label>
+                                <input type="email" id="email" name="email" required>
+                                <span class="form-icon"><i class="fas fa-envelope"></i></span>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">제목 *</label>
+                            <input type="text" id="subject" name="subject" required>
+                            <span class="form-icon"><i class="fas fa-tag"></i></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="category">문의 유형</label>
+                            <select id="category" name="category">
+                                <option value="">선택해주세요</option>
+                                <option value="collaboration">협업 제안</option>
+                                <option value="project">프로젝트 문의</option>
+                                <option value="study">스터디 관련</option>
+                                <option value="career">커리어 조언</option>
+                                <option value="other">기타</option>
+                            </select>
+                            <span class="form-icon"><i class="fas fa-list"></i></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">메시지 *</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="자세한 내용을 적어주세요..."></textarea>
+                        </div>
+                        
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="privacy" name="privacy" required>
+                                <span class="checkmark"></span>
+                                개인정보 수집 및 이용에 동의합니다 *
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">
+                            <span class="btn-text">메시지 보내기</span>
+                            <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
+                            <div class="btn-loading">
+                                <i class="fas fa-spinner fa-spin"></i>
+                            </div>
+                        </button>
+                    </form>
+                    
+                    <div class="form-sidebar">
+                        <div class="sidebar-card">
+                            <h3>연락 전 참고사항</h3>
+                            <ul class="reference-list">
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    <span>메일 제목을 명확하게 작성해주세요</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    <span>협업이나 프로젝트 제안을 환영합니다</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    <span>학습 관련 질문도 언제든 연락주세요</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    <span>보통 24시간 내에 답변드립니다</span>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <div class="sidebar-card">
+                            <h3>현재 관심사</h3>
+                            <div class="interest-tags">
+                                <span class="interest-tag">웹 개발</span>
+                                <span class="interest-tag">JavaScript</span>
+                                <span class="interest-tag">React</span>
+                                <span class="interest-tag">Python</span>
+                                <span class="interest-tag">AI/ML</span>
+                                <span class="interest-tag">협업</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">자주 묻는 질문</h2>
+                    <p class="section-subtitle">궁금한 점이 있으시면 먼저 확인해보세요</p>
+                </div>
+                
+                <div class="faq-list">
+                    <div class="faq-item animate-fade-up">
+                        <div class="faq-question">
+                            <h3>프로젝트 협업이 가능한가요?</h3>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                네, 언제든 환영합니다! 현재 학습 중인 분야이므로 함께 성장할 수 있는 
+                                프로젝트라면 적극적으로 참여하고 싶습니다. 
+                                웹 개발, 특히 프론트엔드 관련 프로젝트에 관심이 많습니다.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item animate-fade-up">
+                        <div class="faq-question">
+                            <h3>스터디 그룹 참여가 가능한가요?</h3>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                물론입니다! 현재도 컴퓨터공학과 동기들과 스터디 그룹을 운영하고 있으며, 
+                                새로운 스터디 그룹 참여도 적극 고려하고 있습니다. 
+                                프로그래밍, 알고리즘, 웹 개발 관련 스터디라면 더욱 좋겠습니다.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item animate-fade-up">
+                        <div class="faq-question">
+                            <h3>인턴십이나 취업 준비는 언제부터 시작하나요?</h3>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                현재 1학년으로 기초를 탄탄히 다지는 데 집중하고 있습니다. 
+                                2학년부터는 인턴십 기회를 적극적으로 찾아볼 계획이며, 
+                                그 전까지는 개인 프로젝트와 포트폴리오 구축에 집중할 예정입니다.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item animate-fade-up">
+                        <div class="faq-question">
+                            <h3>어떤 기술 스택을 선호하시나요?</h3>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                현재는 HTML, CSS, JavaScript를 중심으로 웹 개발 기초를 학습하고 있습니다. 
+                                앞으로는 React, Python, 그리고 AI/ML 분야로 확장해나갈 계획입니다. 
+                                특정 기술에 제한을 두지 않고 필요에 따라 새로운 기술을 배우는 것을 선호합니다.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item animate-fade-up">
+                        <div class="faq-question">
+                            <h3>멘토링이나 조언을 구할 수 있나요?</h3>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                저 역시 아직 배우는 단계이지만, 같이 고민하고 함께 해결책을 찾아가는 것은 
+                                언제든 환영합니다. 특히 같은 초보 개발자분들과는 서로 도움을 주고받으며 
+                                함께 성장할 수 있을 것 같습니다.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-main">
+                    <div class="footer-info">
+                        <h3>차윤호</h3>
+                        <p>Computer Science Student</p>
+                        <p>두원공과대학교 컴퓨터공학과</p>
+                    </div>
+                    <div class="footer-links">
+                        <div class="footer-section">
+                            <h4>Pages</h4>
+                            <ul>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="education.html">Education</a></li>
+                                <li><a href="interests.html">Interests</a></li>
+                                <li><a href="projects.html">Projects</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-section">
+                            <h4>Contact</h4>
+                            <ul>
+                                <li><a href="mailto:xxxx@example.com">xxxx@example.com</a></li>
+                                <li><a href="tel:010-xxxx-xxxx">010-xxxx-xxxx</a></li>
+                                <li><span>경기도 파주시</span></li>
+                            </ul>
+                        </div>
+                        <div class="footer-section">
+                            <h4>Social</h4>
+                            <ul>
+                                <li><a href="#">GitHub</a></li>
+                                <li><a href="#">LinkedIn</a></li>
+                                <li><a href="#">Instagram</a></li>
+                                <li><a href="#">Blog</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 차윤호. All rights reserved.</p>
+                    <p>Made with <i class="fas fa-heart" style="color: var(--accent);"></i> by 차윤호</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>
